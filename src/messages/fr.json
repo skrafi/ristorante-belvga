@@ -1,0 +1,237 @@
+{
+  "common": {
+    "nav": {
+      "home": "Accueil",
+      "menu": "Menu",
+      "gallery": "Galerie",
+      "about": "À propos",
+      "contact": "Contact",
+      "reserve": "Réserver"
+    },
+    "footer": {
+      "address": "Riva Antonio Caccivio, 6900 Lugano, Suisse",
+      "phone": "+41 91 XXX XX XX",
+      "email": "info@belvga.ch",
+      "openingHours": "Horaires d'ouverture",
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "sunday": "Dimanche",
+      "closed": "Fermé",
+      "lunch": "Déjeuner",
+      "dinner": "Dîner",
+      "followUs": "Suivez-nous"
+    },
+    "cta": {
+      "reserveTable": "Réserver une table",
+      "viewMenu": "Voir le menu complet",
+      "learnMore": "En savoir plus",
+      "callUs": "Appelez-nous",
+      "getDirections": "Obtenir l'itinéraire"
+    },
+    "language": {
+      "en": "English",
+      "fr": "Français",
+      "de": "Deutsch"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Ristorante Pescheria Belvga",
+      "subtitle": "Fruits de mer méditerranéens frais sur les rives du lac de Lugano",
+      "cta": "Réservez votre table"
+    },
+    "story": {
+      "title": "Notre histoire",
+      "description": "Depuis plus de trois décennies, nous apportons les meilleurs fruits de mer de la Méditerranée dans votre assiette. Notre passion pour les ingrédients frais et durables et la cuisine italienne traditionnelle crée une expérience culinaire inoubliable.",
+      "learnMore": "Découvrez notre parcours"
+    },
+    "featured": {
+      "title": "Plats en vedette",
+      "viewMenu": "Voir le menu complet"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos clients"
+    },
+    "cta": {
+      "title": "Prêt pour une soirée inoubliable ?",
+      "description": "Réservez votre table et découvrez les meilleurs fruits de mer de Lugano.",
+      "button": "Réserver maintenant"
+    }
+  },
+  "menu": {
+    "title": "Notre Menu",
+    "description": "Découvrez notre sélection soigneusement élaborée de plats de fruits de mer méditerranéens, préparés avec les ingrédients les plus frais.",
+    "categories": {
+      "antipasti": "Antipasti",
+      "primi": "Primi",
+      "secondi": "Secondi",
+      "dolci": "Dolci",
+      "vini": "Vins"
+    },
+    "note": "Veuillez nous informer de toute allergie ou exigence alimentaire.",
+    "contactNote": "Pour toute question, veuillez nous contacter"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Explorez nos plats, notre restaurant et les magnifiques vues sur le lac de Lugano."
+  },
+  "about": {
+    "title": "À propos de nous",
+    "story": {
+      "title": "Notre histoire",
+      "p1": "Fondé en 1990, le Ristorante Pescheria Belvga est une pierre angulaire de la gastronomie des fruits de mer à Lugano. Notre voyage a commencé avec une vision simple : apporter les saveurs authentiques de la Méditerranée au cœur de la Suisse.",
+      "p2": "Trois générations plus tard, nous continuons à honorer cette tradition tout en embrassant l'innovation. Chaque plat raconte l'histoire de la passion de notre famille pour la mer et de notre engagement envers l'excellence."
+    },
+    "philosophy": {
+      "title": "Notre philosophie",
+      "p1": "Nous croyons qu'une grande cuisine commence par de grands ingrédients. C'est pourquoi nous travaillons directement avec des pêcheurs locaux et des fournisseurs durables pour nous approvisionner chaque jour en fruits de mer les plus frais.",
+      "p2": "Notre cuisine combine des recettes italiennes séculaires avec des techniques modernes, créant des plats à la fois authentiques et passionnants."
+    },
+    "chef": {
+      "title": "Rencontrez notre chef",
+      "name": "Chef Marco Belvga",
+      "bio": "Avec plus de 25 ans d'expérience dans les cuisines étoilées Michelin en Italie et en Suisse, le chef Marco apporte son expertise et sa passion dans chaque assiette. Ses créations célèbrent les saveurs naturelles de la mer tout en repoussant les limites culinaires."
+    },
+    "location": {
+      "title": "Notre emplacement",
+      "description": "Niché sur les rives du lac de Lugano, notre restaurant offre une vue imprenable sur l'eau et les montagnes environnantes. L'intérieur chaleureux et élégant crée le cadre parfait pour toute occasion."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Nous serions ravis de vous entendre. Contactez-nous ou rendez-nous visite.",
+    "address": {
+      "title": "Adresse",
+      "value": "Riva Antonio Caccivio, 6900 Lugano, Suisse"
+    },
+    "phone": {
+      "title": "Téléphone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "hours": {
+      "title": "Horaires d'ouverture",
+      "lunch": "Déjeuner",
+      "dinner": "Dîner",
+      "closed": "Fermé",
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+      }
+    },
+    "cta": {
+      "title": "Prêt à dîner ?",
+      "button": "Réservez votre table"
+    }
+  },
+  "reserve": {
+    "title": "Réserver une table",
+    "description": "Réservez votre expérience culinaire inoubliable au Ristorante Pescheria Belvga.",
+    "form": {
+      "date": "Date",
+      "time": "Heure",
+      "guests": "Nombre de convives",
+      "name": "Votre nom",
+      "email": "Adresse email",
+      "phone": "Numéro de téléphone",
+      "notes": "Demandes spéciales (Optionnel)",
+      "notesPlaceholder": "Exigences alimentaires, célébrations, occasions spéciales...",
+      "submit": "Confirmer la réservation",
+      "submitting": "Traitement en cours..."
+    },
+    "validation": {
+      "dateRequired": "Veuillez sélectionner une date",
+      "datePast": "Veuillez sélectionner une date future",
+      "timeRequired": "Veuillez sélectionner une heure",
+      "guestsRequired": "Veuillez sélectionner le nombre de convives",
+      "nameRequired": "Veuillez entrer votre nom",
+      "nameMin": "Le nom doit comporter au moins 2 caractères",
+      "emailRequired": "Veuillez entrer votre email",
+      "emailInvalid": "Veuillez entrer un email valide",
+      "phoneRequired": "Veuillez entrer votre numéro de téléphone",
+      "phoneInvalid": "Veuillez entrer un numéro de téléphone valide"
+    },
+    "availability": {
+      "checking": "Vérification de la disponibilité...",
+      "available": "Horaires disponibles",
+      "limited": "Disponibilité limitée",
+      "fullyBooked": "Complet",
+      "noSlots": "Aucune table disponible pour cette date. Veuillez essayer une autre date.",
+      "closed": "Le restaurant est fermé à cette date"
+    },
+    "errors": {
+      "submitFailed": "Une erreur s'est produite. Veuillez réessayer ou nous appeler au +41 91 XXX XX XX",
+      "networkError": "Problème de connexion. Veuillez réessayer."
+    },
+    "confirmation": {
+      "title": "Réservation confirmée !",
+      "subtitle": "Merci pour votre réservation",
+      "code": "Code de confirmation",
+      "details": "Détails de la réservation",
+      "date": "Date",
+      "time": "Heure",
+      "guests": "Convives",
+      "status": "Statut",
+      "pending": "En attente de confirmation",
+      "emailSent": "Un email de confirmation a été envoyé à votre adresse email.",
+      "contactNote": "Besoin de modifier ou d'annuler ? Veuillez nous appeler au +41 91 XXX XX XX",
+      "backHome": "Retour à l'accueil",
+      "addToCalendar": "Ajouter au calendrier"
+    },
+    "largeParty": {
+      "note": "Pour les groupes de plus de 8 personnes, veuillez nous appeler directement"
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : Mars 2026",
+    "intro": "Au Ristorante Pescheria Belvga, nous prenons votre vie privée au sérieux. Cette politique explique comment nous collectons, utilisons et protégeons vos informations personnelles.",
+    "sections": {
+      "collection": {
+        "title": "Informations que nous collectons",
+        "content": "Nous collectons les informations que vous fournissez directement, telles que votre nom, email, numéro de téléphone et détails de réservation lorsque vous réservez une table."
+      },
+      "use": {
+        "title": "Comment nous utilisons vos informations",
+        "content": "Nous utilisons vos informations pour traiter les réservations, envoyer des emails de confirmation et améliorer nos services. Nous ne vendons ni ne partageons vos données avec des tiers à des fins marketing."
+      },
+      "protection": {
+        "title": "Protection des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre tout accès, altération ou destruction non autorisés."
+      },
+      "rights": {
+        "title": "Vos droits",
+        "content": "En vertu du RGPD, vous avez le droit d'accéder, de corriger ou de supprimer vos données personnelles. Contactez-nous à info@belvga.ch pour toute demande."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Nous utilisons des cookies essentiels pour assurer le bon fonctionnement du site Web. Aucun cookie de suivi n'est utilisé sans votre consentement."
+      },
+      "contact": {
+        "title": "Nous contacter",
+        "content": "Pour toute question relative à la confidentialité, veuillez nous contacter à info@belvga.ch"
+      }
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page non trouvée",
+      "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
+      "cta": "Retour à l'accueil"
+    },
+    "500": {
+      "title": "Une erreur s'est produite",
+      "message": "Nous rencontrons des difficultés techniques. Veuillez réessayer plus tard.",
+      "cta": "Réessayer",
+      "or": "ou",
+      "home": "Retour à l'accueil",
+      "callUs": "Pour les réservations, veuillez nous appeler au"
+    }
+  }
+}
