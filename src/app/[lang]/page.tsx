@@ -7,6 +7,7 @@ import * as Hero from './components/hero-parallax';
 
 export default function HomePage() {
   const t = useTranslations('home');
+  const tCommon = useTranslations('common');
 
   return (
     <>
@@ -29,7 +30,7 @@ export default function HomePage() {
               {t('hero.subtitle')}
             </p>
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Link href={`/${t('common:cta.reserveTable').toLowerCase().replace(/\s+/g, '-')}`}>
+              <Link href="/reserve">
                 <Button variant="primary" size="lg" className="min-w-[200px]">
                   {t('hero.cta')}
                 </Button>

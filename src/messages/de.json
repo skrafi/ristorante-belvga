@@ -47,14 +47,64 @@
     },
     "featured": {
       "title": "Empfohlene Gerichte",
-      "viewMenu": "Vollständige Speisekarte"
+      "viewMenu": "Vollständige Speisekarte",
+      "dishes": {
+        "1": {
+          "category": "Antipasti",
+          "name": "Gegrillter Oktopus",
+          "description": "Frischer Oktopus mit Zitrone und Olivenöl"
+        },
+        "2": {
+          "category": "Primi",
+          "name": "Meeresfrüchte-Risotto",
+          "description": "Cremiges Risotto mit Garnelen und Muscheln"
+        },
+        "3": {
+          "category": "Secondi",
+          "name": "Gegrillter Seebarsch",
+          "description": "Mittelmeer-Forelle mit Kräutern"
+        },
+        "4": {
+          "category": "Antipasti",
+          "name": "Meeresfrüchte-Vorspeisenplatte",
+          "description": "Auswahl frischer Tagesfänge"
+        },
+        "5": {
+          "category": "Dolci",
+          "name": "Tiramisu",
+          "description": "Klassisches italienisches Dessert"
+        },
+        "6": {
+          "category": "Secondi",
+          "name": "Hummer-Linguine",
+          "description": "Frischer Hummer mit hausgemachter Pasta"
+        }
+      }
     },
     "testimonials": {
-      "title": "Was unsere Gäste sagen"
+      "title": "Was unsere Gäste sagen",
+      "reviews": {
+        "1": {
+          "text": "Die besten Meeresfrüchte, die ich seit Jahren gegessen habe! Der Oktopus war perfekt gekocht.",
+          "name": "Maria S.",
+          "location": "Mailand, Italien"
+        },
+        "2": {
+          "text": "Unglaubliche Atmosphäre und noch besseres Essen. Das Risotto ist ein Muss!",
+          "name": "Johann D.",
+          "location": "Zürich, Schweiz"
+        },
+        "3": {
+          "text": "Perfekt für besondere Anlässe. Der Service ist außergewöhnlich.",
+          "name": "Sarah L.",
+          "location": "Lugano, Schweiz"
+        }
+      }
     },
     "cta": {
       "title": "Bereit für einen unvergesslichen Abend?",
       "description": "Reservieren Sie Ihren Tisch und erleben Sie die besten Meeresfrüchte in Lugano.",
+      "subtitle": "Reservieren Sie Ihr unvergessliches kulinarisches Erlebnis heute",
       "button": "Jetzt reservieren"
     }
   },

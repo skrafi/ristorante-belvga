@@ -47,14 +47,64 @@
     },
     "featured": {
       "title": "Plats en vedette",
-      "viewMenu": "Voir le menu complet"
+      "viewMenu": "Voir le menu complet",
+      "dishes": {
+        "1": {
+          "category": "Antipasti",
+          "name": "Poulpe grillée",
+          "description": "Poulpe fraîche avec citron et huile d'olive"
+        },
+        "2": {
+          "category": "Primi",
+          "name": "Risotto aux fruits de mer",
+          "description": "Risotto crémeux avec crevettes et moules"
+        },
+        "3": {
+          "category": "Secondi",
+          "name": "Bar grillé",
+          "description": "Bar méditerranéen avec herbes aromatiques"
+        },
+        "4": {
+          "category": "Antipasti",
+          "name": "Plateau de fruits de mer",
+          "description": "Sélection de prises fraîches du jour"
+        },
+        "5": {
+          "category": "Dolci",
+          "name": "Tiramisu",
+          "description": "Dessert italien classique"
+        },
+        "6": {
+          "category": "Secondi",
+          "name": "Linguine au homard",
+          "description": "Homard frais avec pâtes faites à la main"
+        }
+      }
     },
     "testimonials": {
-      "title": "Ce que disent nos clients"
+      "title": "Ce que disent nos clients",
+      "reviews": {
+        "1": {
+          "text": "Les meilleurs fruits de mer que j'ai mangés depuis des années ! La poulpe était parfaitement cuite.",
+          "name": "Maria S.",
+          "location": "Milan, Italie"
+        },
+        "2": {
+          "text": "Ambiance incroyable et nourriture encore meilleure. Le risotto est à essayer absolument !",
+          "name": "Jean D.",
+          "location": "Zurich, Suisse"
+        },
+        "3": {
+          "text": "Parfait pour les occasions spéciales. Le service est exceptionnel.",
+          "name": "Sarah L.",
+          "location": "Lugano, Suisse"
+        }
+      }
     },
     "cta": {
       "title": "Prêt pour une soirée inoubliable ?",
       "description": "Réservez votre table et découvrez les meilleurs fruits de mer de Lugano.",
+      "subtitle": "Réservez votre expérience culinaire inoubliable aujourd'hui",
       "button": "Réserver maintenant"
     }
   },

@@ -47,15 +47,64 @@
     },
     "featured": {
       "title": "Featured Dishes",
-      "viewMenu": "View Full Menu"
+      "viewMenu": "View Full Menu",
+      "dishes": {
+        "1": {
+          "category": "Antipasti",
+          "name": "Grilled Octopus",
+          "description": "Fresh octopus with lemon and olive oil"
+        },
+        "2": {
+          "category": "Primi",
+          "name": "Seafood Risotto",
+          "description": "Creamy risotto with shrimp and mussels"
+        },
+        "3": {
+          "category": "Secondi",
+          "name": "Grilled Branzino",
+          "description": "Mediterranean sea bass with herbs"
+        },
+        "4": {
+          "category": "Antipasti",
+          "name": "Mixed Seafood Platter",
+          "description": "Selection of fresh catches of the day"
+        },
+        "5": {
+          "category": "Dolci",
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert"
+        },
+        "6": {
+          "category": "Secondi",
+          "name": "Lobster Linguine",
+          "description": "Fresh lobster with handmade pasta"
+        }
+      }
     },
     "testimonials": {
-      "title": "What Our Guests Say"
+      "title": "What Our Guests Say",
+      "reviews": {
+        "1": {
+          "text": "The best seafood I've had in years! The octopus was perfectly cooked.",
+          "name": "Maria S.",
+          "location": "Milan, Italy"
+        },
+        "2": {
+          "text": "Amazing atmosphere and even better food. The risotto is a must-try!",
+          "name": "John D.",
+          "location": "Zurich, Switzerland"
+        },
+        "3": {
+          "text": "Perfect for special occasions. The service is exceptional.",
+          "name": "Sarah L.",
+          "location": "Lugano, Switzerland"
+        }
+      }
     },
     "cta": {
       "title": "Ready for an Unforgettable Evening?",
       "description": "Reserve your table and experience the finest seafood in Lugano.",
-      "button": "Reserve Now"
+      "subtitle": "Book your unforgettable dining experience today"
     }
   },
   "menu": {
