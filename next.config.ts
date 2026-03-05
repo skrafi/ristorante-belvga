@@ -1,9 +1,12 @@
 import type { NextConfig } from 'next'
 import createNextIntlPlugin from 'next-intl/plugin'
+import path from 'path'
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
 const nextConfig: NextConfig = {
+  // Tell Next.js about src directory to avoid workspace detection issues
+  outputFileTracingRoot: path.join(__dirname, 'src'),
   headers: async () => {
     return [
       {
