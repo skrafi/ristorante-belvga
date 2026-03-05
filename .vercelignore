@@ -1,0 +1,15 @@
+# Ignore parent workspace files
+../../package-lock.json
+../../node_modules
+../../.openclaw
+../../AGENTS.md
+../../HEARTBEAT.md
+../../IDENTITY.md
+../../MEMORY.md
+../../SOUL.md
+../../TODO.md
+../../TOOLS.md
+../../USER.md
+../../memory
+../../orchestration
+../../orchestration-projects
