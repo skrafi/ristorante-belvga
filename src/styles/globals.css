@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ── CSS Variables: Ristorante Pescheria Belvga ── */
 /* Mediterranean elegance meets Swiss precision */
 
