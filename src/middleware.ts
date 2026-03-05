@@ -9,6 +9,6 @@ export default createMiddleware({
 })
 
 export const config = {
-  // Match only pathnames without `.`, `_`, or `api`
+  // Match all paths except api, _next, etc.
   matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 }
