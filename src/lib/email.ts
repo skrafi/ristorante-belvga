@@ -1,6 +1,15 @@
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY || '')
+// Lazy initialization to avoid build-time validation
+const getResendClient = () => {
+  const apiKey = process.env.RESEND_API_KEY
+  if (!apiKey) return null
+  try {
+    return new Resend(apiKey)
+  } catch {
+    return null
+  }
+}
 
 interface ReservationEmailData {
   to: string
@@ -79,7 +88,8 @@ Bitte rufen Sie an, um Ihre Reservierung zu stornieren oder zu ändern.
 }
 
 export async function sendReservationConfirmation(data: ReservationEmailData): Promise<void> {
-  if (!process.env.RESEND_API_KEY) {
+  const resend = getResendClient()
+  if (!resend) {
     console.log('[Email] Skipping - RESEND_API_KEY not configured')
     return
   }
@@ -101,7 +111,8 @@ export async function sendReservationConfirmation(data: ReservationEmailData): P
 }
 
 export async function sendRestaurantNotification(data: Omit<ReservationEmailData, 'language'>): Promise<void> {
-  if (!process.env.RESEND_API_KEY) {
+  const resend = getResendClient()
+  if (!resend) {
     console.log('[Email] Skipping - RESEND_API_KEY not configured')
     return
   }
